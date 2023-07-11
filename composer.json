@@ -1,0 +1,37 @@
+{
+    "name": "jose/vega_poo",
+    "description": "Learn poo in php building a web framework",
+    "type": "project",
+    "license": "MIT",
+    "version" : "1.0.0",
+    "keywords": ["php", "php8", "nextformation", "newyork", "web", "framework", "Aziaha", "vega"],
+    "homepage": "https://github.com/devweb2/vega_poo1",
+    "autoload": {
+        "psr-4": {
+            "Jose\\": "src/",
+            "VegaCore\\": "vegaCore"
+        }
+    },
+    "authors": [
+        {
+            "name": "devweb2",
+            "email": "louis.jose83@yahoo.fr",
+            "homepage": "https://github.com/devweb2/"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable":true,
+    "config": {
+        "optmize-autoloader": true,
+        "sort-packages": true
+    },
+
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "symfony/var-dumper": "^6.3"
+    },
+    "require": {
+        "php-di/php-di": "^7.0",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
